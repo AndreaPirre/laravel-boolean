@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+
+
+Route::get('/', function(){
+
     return view('welcome');
+});
+
+Route::get('paste', function(){
+
+$data = config('pasta.data');
+    return view('paste', compact('data'));
 });
