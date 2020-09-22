@@ -27,8 +27,12 @@ h1 {
   margin-bottom: 30px;
 }
 
+h2 {
+  padding-top: 40px;
+  color: #fff;
+}
+
 .logo_container {
-  width: 100vw;
   display: flex;
   justify-content: center;
 }
@@ -40,7 +44,6 @@ h1 {
 
 .menu {
   margin-top: 40px;
-  width: 100vw;
   display: flex;
   justify-content: center;
 }
@@ -49,6 +52,26 @@ h1 {
   font-size: 30px;
   padding-right: 15px;
   font-weight: 700;
+  display: inline-block;
+}
+
+div.footer_container {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  background-color: #646b7e;
+  color: #c1c1c1;
+}
+
+.footer_container ul li {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.tipi_pasta ul li {
+  display: inline-block;
 }
 
 div.container {
@@ -58,10 +81,6 @@ div.container {
 
 div.container div.tipi_pasta {
   width: 60%;
-}
-
-div.container ul li {
-  display: inline-block;
 }
 
 div.container > * {

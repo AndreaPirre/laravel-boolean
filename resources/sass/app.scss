@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,8 +15,8 @@ img {
 
 a {
     color: #000;
-
 }
+
 
 .img_pasta{
     padding: 3px;
@@ -27,8 +27,13 @@ h1 {
     margin-bottom: 30px;
 }
 
+h2 {
+
+    padding-top: 40px;
+    color: #fff;
+}
+
 .logo_container {
-    width: 100vw;
     display: flex;
     justify-content: center;
 
@@ -37,39 +42,52 @@ h1 {
 .logo {
     margin-top: 100px;
     width: 250px;
-
-
 }
 
 .menu {
     margin-top: 40px;
-    width: 100vw;
     display: flex;
     justify-content: center;
-
 }
 
 .menu ul li {
     font-size: 30px;
     padding-right: 15px;
     font-weight: 700;
+    display: inline-block;
 }
+
+div.footer_container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    background-color:#646b7e;
+    color: #c1c1c1;
+}
+
+.footer_container ul li  {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+
+.tipi_pasta ul li {
+ display: inline-block;
+}
+
+
+
 
 div.container {
 
     display: flex;
-    flex-direction:  column;
+    flex-direction: column;
 
     div.tipi_pasta {
         width: 60%;
-
-    }
-
-
-
-    ul li {
-     display: inline-block;
-
     }
 
 

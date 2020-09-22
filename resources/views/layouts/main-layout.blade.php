@@ -9,6 +9,7 @@
 
 
         <div class="container">
+
             @include('partials.header')
 
 
@@ -24,8 +25,14 @@
 
 
 
-            @include('partials.footer')
+
+
+
+
+
         </div>
+
+        @include('partials.footer')
 
     </body>
 </html>
